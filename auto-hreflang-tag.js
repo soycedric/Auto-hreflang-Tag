@@ -61,7 +61,7 @@
                 }
 
                 //Si es .mx
-                else if ((window.location.href).includes([".mx"])){
+                if ((window.location.href).includes([".mx"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -123,7 +123,7 @@
                 }
 
                 //Si es .com.ar
-                else if ((window.location.href).includes([".com.ar"])){
+                if ((window.location.href).includes([".com.ar"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -185,7 +185,7 @@
                 }
 
                 //Si es .com.bo
-                else if ((window.location.href).includes([".com.bo"])){
+                if ((window.location.href).includes([".com.bo"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -247,7 +247,7 @@
                 }
 
                 //Si es .cl
-                else if ((window.location.href).includes([".cl"])){
+                if ((window.location.href).includes([".cl"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -309,7 +309,7 @@
                 }
 
                 //Si es .com.co
-                else if ((window.location.href).includes([".com.co"])){
+                if ((window.location.href).includes([".com.co"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -371,7 +371,7 @@
                 }
  
                 //Si es .com.ec
-                else if ((window.location.href).includes([".com.ec"])){
+                if ((window.location.href).includes([".com.ec"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -433,7 +433,7 @@
                 }
 
                 //Si es .com.es
-                else if ((window.location.href).includes([".com.es"])){
+                if ((window.location.href).includes([".com.es"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -495,7 +495,7 @@
                 }
 
                 //Si es .com.pe
-                else if ((window.location.href).includes([".com.pe"])){
+                if ((window.location.href).includes([".com.pe"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -557,7 +557,7 @@
                 }
 
                 //Si es .com.pa
-                else if ((window.location.href).includes([".com.pa"])){
+                if ((window.location.href).includes([".com.pa"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
