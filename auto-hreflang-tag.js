@@ -45,7 +45,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".com"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -107,7 +107,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".mx"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -169,7 +169,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".com.ar"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -231,7 +231,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".com.bo"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -293,7 +293,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".cl"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -355,7 +355,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".com.co"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -417,7 +417,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".com.ec"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -479,7 +479,7 @@
                 let dEsp = document.getElementById(8)
                 let espana = (window.location.href).toString();
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -542,7 +542,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".com.pe"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
@@ -604,7 +604,7 @@
                 let espana = (window.location.href).toString();
                 espana = (espana.replace([".com.pa"], '.com.es'));
                 dEsp.setAttribute("href", espana);
-                dEsp.setAttribute("href", 'es-ES');
+                dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
