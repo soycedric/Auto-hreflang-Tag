@@ -1,4 +1,5 @@
 
+
                 // Si es .com
                 if ((window.location.href).includes([".com"])){
 
@@ -7,7 +8,7 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".com"], '.mx'));
+                mexico = (mexico.replace([".com"], '.com.mx'));
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -60,12 +61,13 @@
                 dPa.setAttribute("hreflang", 'es-PA');
                 }
 
-                //Si es .mx
-                if ((window.location.href).includes([".mx"])){
+                //Si es .com.mx
+                
+                if ((window.location.href).includes([".com.mx"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
-                amolca = (amolca.replace([".mx"], '.com'));
+                amolca = (amolca.replace([".com.mx"], '.com'));
                 def.setAttribute("href", amolca);
 
                 let dMex = document.getElementById(2)
@@ -75,49 +77,49 @@
 
                 let dArg = document.getElementById(3)
                 let argentina = (window.location.href).toString();
-                argentina = (argentina.replace([".mx"], '.com.ar'));
+                argentina = (argentina.replace([".com.mx"]), '.com.ar'));
                 dArg.setAttribute("href", argentina);
                 dArg.setAttribute("hreflang", 'es-AR');
 
                 let dBol = document.getElementById(4)
                 let bolivia = (window.location.href).toString();
-                bolivia = (bolivia.replace([".mx"], '.com.bo'));
+                bolivia = (bolivia.replace([".com.mx"], '.com.bo'));
                 dBol.setAttribute("href", bolivia);
                 dBol.setAttribute("hreflang", 'es-BO');
 
                 let dCh = document.getElementById(5)
                 let chile = (window.location.href).toString();
-                chile = (chile.replace([".mx"], '.cl'));
+                chile = (chile.replace([".com.mx"], '.cl'));
                 dCh.setAttribute("href", chile);
                 dCh.setAttribute("hreflang", 'es-CL');
 
                 let dCol = document.getElementById(6)
                 let colombia = (window.location.href).toString();
-                colombia = (colombia.replace([".mx"], '.com.co'));
+                colombia = (colombia.replace([".com.mx"], '.com.co'));
                 dCol.setAttribute("href", colombia);
                 dCol.setAttribute("hreflang", 'es-CO');
 
                 let dEc = document.getElementById(7)
                 let ecuador = (window.location.href).toString();
-                ecuador = (ecuador.replace([".mx"], '.com.ec'));
+                ecuador = (ecuador.replace([".com.mx"], '.com.co'));
                 dEc.setAttribute("href", ecuador);
                 dEc.setAttribute("hreflang", 'es-EC');
 
                 let dEsp = document.getElementById(8)
                 let espana = (window.location.href).toString();
-                espana = (espana.replace([".mx"], '.com.es'));
+                espana = (espana.replace([".com.mx"], '.com.es'));
                 dEsp.setAttribute("href", espana);
                 dEsp.setAttribute("hreflang", 'es-ES');
 
                 let dPe = document.getElementById(9)
                 let peru = (window.location.href).toString();
-                peru = (peru.replace([".mx"], '.com.pe'));
+                peru = (peru.replace([".com.mx"], '.com.pe'));
                 dPe.setAttribute("href", peru);
                 dPe.setAttribute("hreflang", 'es-PE');
 
                 let dPa = document.getElementById(10)
                 let panama = (window.location.href).toString();
-                panama = (panama.replace([".mx"], '.com.pa'));
+                panama = (panama.replace([".com.mx"], '.com.pa'));
                 dPa.setAttribute("href", panama);
                 dPa.setAttribute("hreflang", 'es-PA');
                 }
@@ -132,7 +134,6 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".com.ar"]), '.mx')
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -194,7 +195,7 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".com.bo"], '.mx'));
+                mexico = (mexico.replace([".com.bo"], '.com.mx'));
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -256,7 +257,7 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".cl"], '.mx'));
+                mexico = (mexico.replace([".cl"], '.com.mx'));
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -309,7 +310,7 @@
                 }
 
                 //Si es .com.co
-                if ((window.location.href).includes([".com.co"])){
+                else if ((window.location.href).includes([".com.co"])){
 
                 let def = document.getElementById(1);
                 let amolca = (window.location.href).toString();
@@ -318,7 +319,7 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".com.co"], '.mx'));
+                mexico = (mexico.replace([".com.co"], '.com.mx'));
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -380,7 +381,7 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".com.ec"], '.mx'));
+                mexico = (mexico.replace([".com.ec"], '.com.mx'));
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -442,7 +443,7 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".com.es"], '.mx'));
+                mexico = (mexico.replace([".com.es"], '.com.mx'));
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -504,7 +505,7 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".com.pe"], '.mx'));
+                mexico = (mexico.replace([".com.pe"], '.com.mx'));
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -566,7 +567,7 @@
 
                 let dMex = document.getElementById(2)
                 let mexico = (window.location.href).toString();
-                mexico = (mexico.replace([".com.pa"], '.mx'));
+                mexico = (mexico.replace([".com.pa"], '.com.mx'));
                 dMex.setAttribute("href", mexico);
                 dMex.setAttribute("hreflang", 'es-MX');
 
@@ -617,3 +618,5 @@
                 dPa.setAttribute("href", panama);
                 dPa.setAttribute("hreflang", 'es-PA');
                 }
+
+                
